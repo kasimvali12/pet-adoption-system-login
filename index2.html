@@ -1,0 +1,246 @@
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<title>Pet Adoption system </title>
+	<style>
+		body {
+			background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.3)), url("bg.jpeg");
+			background-size: cover;
+			color: white;
+			margin: 0;
+			font-family: "Poppins", sans-serif
+		}
+
+		#header {
+			display: flex;
+			height: 90px;
+			align-items: center;
+			background: rgb(41 40 40 / 20%);
+			padding: 20px;
+
+		}
+
+		ul li {
+			display: inline-block;
+			margin: 0px 30px;
+
+		}
+
+		ul a:hover {
+			color: rgba(176, 56,206);
+
+		}
+
+		#header ul {
+			height: 30px;
+			/* background: rgb(27, 14, 125); */
+			padding-top: 10px;
+			width: 100%;
+
+		}
+
+		#body {
+			height: auto;
+			color: white;
+			/* background: rgba(255, 255, 255, 0.2); */
+			padding: 20px 0;
+
+		}
+
+                #footer {
+			display: flex;
+			height: 300px;
+			background: rgba(16, 15, 15, 0.7);
+	   	}
+
+		#contact {
+			height: 300px;
+			width: 33.33%;
+			color: white;
+		}
+
+		#branches {
+			height: 300px;
+			width: 33.33%;
+			color: white;
+		}
+
+		#links {
+			height: 300px;
+			width: 33.33%;
+			color: white;
+		}
+
+		#insta {
+			width: 30%;
+			display: flex;
+			align-items: center;
+
+		}
+
+		#whatsapp {
+			width: 30%;
+			display: flex;
+			align-items: center;
+
+		}
+
+		a {
+			color: white;
+			text-decoration: none;
+		}
+
+		#places {
+			width: 30%;
+			padding: 6px 180px;
+			align-items: center;
+			color: white;
+		}
+
+		#d1 img {
+			margin: 26px 134px;
+			height: 200px;
+			width: 300px;
+		}
+		.icons{
+			display: flex;
+			justify-content: center;
+			gap: 30px;
+		}
+
+		.pets img {
+			width: 100px;
+			/* color: purple; */
+			margin-bottom: 20px;
+			margin-top: 10px;
+		}
+
+		.pets {
+			width: 220px;
+			border: 1px solid white;
+			padding: 10px;
+			background-color: white;
+			border-radius: 10px;
+			height: 160px;
+		}
+		#bf{
+			font-size: 45px;
+		}
+
+		.pets:hover{
+			border: 3px solid #6504b5;
+			box-shadow: 1px 2px 4px #6504b5;
+		}
+                #text{
+                    padding-left: 6px;
+                    padding-right: 6px;
+                }
+	</style>
+</head>
+
+<body>
+	<div id="header">
+		<image src="logo.png" height="100px">
+			<ul>
+				<a href="index.html">
+					<li>Home</li>
+				</a>
+				<a href="petowner.html">
+					<li>Pet Owner</li>
+				</a>
+				<a href="administrator.html">
+					<li>Administrator</li>
+				</a>
+				<a href="petadoption.html">
+					<li>Pet Adoption</li>
+				</a>
+
+			</ul>
+
+	</div>
+	<div id="body">
+		<center>
+			<h1>Welcome to Pet Adoption</h1>
+			<p>
+                            <div id="text">
+				we believe in the power of companionship and the joy that pets bring to our lives. Whether you're
+				looking for a playful puppy, a cuddly kitten, or a seasoned companion, our platform connects you with
+				loving animals in need of a forever home.
+
+				Explore our diverse selection of pets, read their stories, and find the perfect match for your lifestyle
+				and preferences. Join us in making a difference-one adoption at a time.
+                            </div>
+
+			</p>
+			<div id="d1">
+				<img src="cd1.webp" width="500" height="300">
+				<img src="d1.webp" width="500" height="300">
+			</div>
+			<span id="bf"><b>Find you new Best friend</b></span><br>
+			<span style="font-size: 25px;">Browse pets from our network of over 14,500 shelters and rescues.</span>
+			<div class="icons">
+				<div class="pets">
+					<img src="puppy.png" alt=""><br>
+					<span style="color: black; font-size: 17px;"><b>Dogs</b></span>	
+                                        
+				</div>
+				<div class="pets">
+					<img src="cat.png" alt=""><br>
+					<span style="color: black; font-size: 17px;"><b>Cats</b></span>
+				</div>
+			</div>
+
+		</center>
+	</div>
+		<div id="footer">
+			<div id="contact">
+				<center>
+					<h2>Contact Us</h2>
+					<div id="insta" style="">
+						<image src="insta.png" width="40" height="40" style="">
+							<h4>Pet_Adoption</h4>
+					</div>
+					<div id="whatsapp">
+						<image src="wha.png" width="40" height="40">
+							<h4>+91123456789</h4>
+					</div>
+
+				</center>
+
+
+
+			</div>
+			<div id="branches">
+				<center>
+					<h2>Branches</h2>
+				</center>
+				<div id="places">
+					<center><a href="https://maps.app.goo.gl/W9qmmikmBkFd9wfV6">Uppal</a><br>
+						<a href="https://maps.app.goo.gl/uUYtFdofzPQ3ESFV8">LB nagar</a>
+						<a href="https://maps.app.goo.gl/LVe9dBu7kPpSpFSf8">Secunderabad</a>
+						<a href="https://maps.app.goo.gl/Yi7hPqWPqAYaNRxH9">Madhapur</a><br>
+						<a href="https://maps.app.goo.gl/GbrdHBZTc4DuF1uk9">Jubilee hills</a>
+					</center>
+				</div>
+			</div>
+			<div id="Links">
+				<center>
+					<h2>Links</h2>
+				</center>
+				<center>
+					<image src="mail.png" width="40" height="40">
+						<ul>
+							<li><a href="PetAdoption@gmail.com.html">PetAdoption@gmail.com</a></li>
+
+						</ul>
+			</div>
+		</div>
+
+</body>
+
+</html>
